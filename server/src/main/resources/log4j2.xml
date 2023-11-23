@@ -12,10 +12,10 @@
         </File>
     </Appenders>
     <Loggers>
-        <Logger name="ru.otus.demo" level="info"/>
-        <Root level="debug">
+        <Root level="all">
             <AppenderRef ref="STDOUT"/>
             <AppenderRef ref="FILE"/>
         </Root>
+        <Logger name="ru.otus.ermolaeva.http" level="info"/>
     </Loggers>
 </Configuration>
